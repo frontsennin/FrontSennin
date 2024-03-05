@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+@import './app/shared/scss/mixins';
+@import './app/shared/scss/common_colors';
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    background-color: $background_color;
+}
